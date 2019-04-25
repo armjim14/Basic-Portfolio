@@ -1,0 +1,110 @@
+body {
+    margin: 0%;
+    height: 100%;
+    background-image: url(C:/Users/ajime/Desktop/Basic-Portfolio/assets/images/schoop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top {
+    height: 100px;
+    width: 960px;
+}
+
+#intop {
+    width: 17%;
+    height: 100px;
+    background-color: #4aaaa5;
+    position: absolute;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: 29px;
+    font-weight: bold;
+    color: white;
+}
+
+#intop2 {
+    height: 100px;
+    width: 35%;
+    float: right;
+}
+
+#header {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+a {
+    padding: 20px;
+    vertical-align: middle;
+    line-height: 100px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#inrest {
+    margin-left: 18.5%;
+    height: 450px;
+    width: 960px;
+    background-color: white;
+    margin-top: 70px;
+}
+
+#title {
+    float: left;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 35px;
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    width: 96%;
+    padding-bottom: 25px;
+}
+
+#img1 {
+    width: 250px;
+    margin-left: 18px;
+    float: left;
+    padding-right: 25px;
+}
+
+#text {
+    font-size: 22px;
+    color: #777777;
+}
+
+#footer {
+    color: white;
+    height: 60px;
+    margin-top: 69px;
+    background-color: #666666;
+    text-align: center;
+    line-height: 82px;
+    vertical-align: bottom;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+}
+
+#inin {
+    margin-left: 20px;
+}
+
+input {
+    width: 95%;
+}
+
+#large {
+    height: 65px;
+}
+
+button {
+    background-color: #4aaaa5;
+    padding: 5px;
+    width: 80px;
+    color: white;
+}
