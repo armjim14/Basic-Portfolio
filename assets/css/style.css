@@ -47,23 +47,31 @@ a {
     font-weight: bold;
 }
 
-#inrest {
+section {
     height: 450px;
     width: 960px;
     background-color: white;
     margin-top: 70px;
 }
 
+#lhead {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    height: 83px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+}
+
 #title {
+    text-align: left;
     float: left;
     font-weight: bold;
     margin: 20px;
     font-size: 35px;
     color: #4aaaa5;
-    border-bottom-style: solid;
-    border-bottom-color: #dddddd;
-    width: 96%;
+    width: 80%;
     padding-bottom: 25px;
+    margin-left: 35px;
 }
 
 #img1 {
@@ -111,4 +119,13 @@ button {
 }
 #bottom {
     margin-top: 15px;
+}
+
+h4 {
+    text-align: left;
+    padding: 10px 0px 5px 20px;
+}
+
+.other {
+    margin-bottom: 10px;
 }
