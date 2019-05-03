@@ -3,23 +3,22 @@ body {
     width: 100%;
     height: 100%;
     background-image: url(https://webgradients.com/public/webgradients_png/083%20Jungle%20Day.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #top {
+    position: relative;
     height: 100px;
     width: 960px;
 }
 
 #intop {
-    width: 17%;
+    position: absolute;
+    left: 0;
+    font-size: 29px; 
     height: 100px;
     background-color: #4aaaa5;
-    position: absolute;
     vertical-align: middle;
-    line-height: 100px;
-    font-size: 29px;
+    line-height: 85px;
     font-weight: bold;
     color: white;
 }
@@ -28,6 +27,8 @@ body {
     height: 100px;
     width: 35%;
     float: right;
+    line-height: 100px;
+    vertical-align: middle;
 }
 
 header {
@@ -39,16 +40,13 @@ header {
 }
 
 a {
-    padding: 20px;
-    vertical-align: middle;
-    line-height: 100px;
+    padding: 10px;
     color: gray;
-    font-size: 20px;
     font-weight: bold;
 }
 
 section {
-    height: 450px;
+    height: 500px;
     width: 960px;
     background-color: white;
     margin-top: 70px;
@@ -56,7 +54,7 @@ section {
 
 #lhead {
     padding-bottom: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     height: 83px;
     border-bottom-style: solid;
     border-bottom-color: #dddddd;
@@ -67,7 +65,6 @@ section {
     float: left;
     font-weight: bold;
     margin: 20px;
-    font-size: 35px;
     color: #4aaaa5;
     width: 80%;
     padding-bottom: 25px;
@@ -82,6 +79,7 @@ section {
 }
 
 #text {
+    position: relative;
     font-size: 22px;
     color: #777777;
 }
@@ -90,7 +88,6 @@ footer {
     width: 100%;
     color: white;
     height: 50px;
-    margin-top: 150px;
     background-color: #666666;
     text-align: center;
     border-top-style: solid;
@@ -104,6 +101,7 @@ footer {
 }
 
 input {
+    padding-left: 8px;
     width: 95%;
 }
 
@@ -122,10 +120,35 @@ button {
 }
 
 h4 {
+    font-size: 18px;
     text-align: left;
-    padding: 10px 0px 5px 20px;
+    padding: 10px 0px 0px 20px;
 }
 
 .other {
     margin-bottom: 10px;
+}
+
+textarea {
+    width: 95%;
+    height: 8vh;
+    text-align: left;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+@media screen and (max-width: 1000px) {
+    #intop2 { width: 43%; }
+    section { width: 750px; }
+    #top { width: 750px; }
+}
+
+@media screen and (max-width: 800px) {
+    #intop2 { width: 51%; }
+    section { width: 620px; }
+    #top { width: 620px; }
+    #text { float: left; }
+    img { float: left; }
 }
