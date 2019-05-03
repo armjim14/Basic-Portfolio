@@ -157,7 +157,7 @@ a:hover {
     img { float: left; }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 680px) {
     header, #top {height: 200px; width: 100%; }
     #intop2 { float: left; width: 100%; }
     #intop { width: 100%; float: left; position: relative; }
@@ -167,6 +167,11 @@ a:hover {
     #text {position: relative;}
 }
 
+@media screen and (max-width: 400px) {
+    #img1 {width: 275px;}
+    section {width: 350px;}
+}
+
 @media screen and (max-height: 720px) {
-    footer { bottom: auto; }
+    footer { bottom: auto; padding: 25px 0 25px 0; margin-top: 25px; }
 }
