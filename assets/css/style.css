@@ -153,7 +153,7 @@ a:hover {
     #intop2 { width: 51%; }
     section { width: 620px; }
     #top { width: 620px; }
-    #text { float: left; position: relative; display: inline-block;}
+    #text { float: left; position: relative;}
     img { float: left; }
 }
 
