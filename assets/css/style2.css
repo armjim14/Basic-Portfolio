@@ -1,7 +1,4 @@
-#img2 {
+#img2, #img3 {
     width: 100px;
-}
-
-#img3 {
-    width: 100px;
+    border: 1px solid black;
 }
