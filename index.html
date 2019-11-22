@@ -1,48 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>About</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="boot.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<center>
-    <header>
-        <div id="top">
 
-            <div id="intop" class="badge">
-                Armando Jimenez
+<body class="bg-secondary">
+    <div class="container-fluid">
+
+        <div class="row mb-5">
+            <div class="col-md-12 mt-3">
+                <h1 class="text-center text-white">
+                    WalkMe
+                </h1>
             </div>
+        </div>
 
-            <div id="intop2">
-                <a class="h4" href="index.html">About</a>
-                <a id="middle" class="h4" href="portfolio.html">Portfolio</a>
-                <a class="h4" href="contact.html">Contact</a>
+        <div class="row pt-3 mb-5">
+            <div class="col-md-6">
+                <div id="zero" class="alert alert-success text-center" role="alert">
+                    First enter your full name! <span class="next">Next</span>
+                </div>
             </div>
-
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
         </div>
-    </header>
-</center>
 
-<center>
-    <section>
-        <div id="lhead">
-            <p id="title" class="h2">About Me</p>
+        <div class="row pt-3  mb-5">
+            <div class="col-md-6">
+                <div id="first" class="alert alert-success text-center" role="alert">
+                    Enter your favorite number! <span class="next">Next</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <input type="number" class="form-control" placeholder="Favorite number" aria-label="Favorite number"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
         </div>
-        <img id="img1" src="assets/images/propic.jpg" alt="Profile Picture">
-            <p id="text" class="h6">
-                I was born in Noglaes but was mostly raised in Rio Rico, then 
-                when I graduated From High school I moved to Tucson
-            </p>
-    </section>
-</center>
 
-<center>
-    <footer>
-        Copyright ©
-    </footer>
-</center>
+        <div class="row pt-3  mb-5">
+            <div class="col-md-6">
+                <div id="second" class="alert alert-success text-center" role="alert">
+                    Enter your favorite book! <span class="next">Next</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Favorite book" aria-label="Favorite book"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-3 mb-5">
+            <div class="col-md-6">
+                <div id="third" class="alert alert-success text-center" role="alert">
+                    Enter your favorite song! <span class="next">Next</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Favorite song" aria-label="Favorite song"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-3 mb-5">
+            <div class="col-md-6">
+                <div id="fourth" class="alert alert-primary text-center" role="alert">
+                    Submit your form!
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div id="spec" class="input-group mb-3">
+                    <input type="button" class="btn btn-primary" value="Submit">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="logic.js"></script>
 </body>
+
 </html>
